@@ -4,19 +4,19 @@ import time
 class Config(object):
 
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6776233446:AAGWmpBzm8O8Z-mYxGlbuQbs5ekelmxSDWU")
 
 
     # Get from my.telegram.org (or @UseTGXBot)
-    API_ID = int(os.environ.get("API_ID", 12345))
+    API_ID = int(os.environ.get("API_ID", 24335028))
 
 
     # Get from my.telegram.org (or @UseTGXBot)
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("API_HASH", "b204ec833fb451fb913fc8e683b232d0")
     
     
     # Database URL from https://cloud.mongodb.com/
-    DATABASE_URI = os.environ.get("DATABASE_URI", "")
+    DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://lk3140318:yqduo05hHUIX15eU@cluster0.nygifov.mongodb.net/?retryWrites=true&w=majority")
 
 
     # Your database name from mongoDB
@@ -30,7 +30,7 @@ class Config(object):
     # To save user details (Usefull for getting userinfo and total user counts)
     # May reduce filter capacity :(
     # Give yes or no
-    SAVE_USER = os.environ.get("SAVE_USER", "no").lower()
+    SAVE_USER = os.environ.get("SAVE_USER", "-1002045377846").lower()
 
 
     # Go to https://dashboard.heroku.com/account, scroll down and press Reveal API
